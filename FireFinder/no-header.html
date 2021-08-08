@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body class='no-header-page  wsite-theme-light'>
+
+  <div class="wrapper">
+    <div class="header-wrap wsite-background">
+      <div id="topBar" class="topbar">
+            <a class="hamburger w-navpane-trigger" aria-label="Menu" href="#"><span></span></a>
+            <div class="logo">{logo}</div>
+            {search}
+            {minicart}
+      </div><!-- end .container -->
+    </div>
+
+   <div class="w-navlist nav-wrap">
+      <div class="container">
+        <div class="nav desktop-nav">{menu}</div>
+      </div>
+   </div>
+
+    <div class="main-wrap">
+      {{#sections}}
+          <div class="container">{content}</div>
+      {{/sections}}
+    </div>
+
+    <div class="footer-wrap">
+      <div class="container">
+        <div class="footer">{footer}</div>
+      </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+  </div>
+
+  <div class="w-navpane nav mobile-nav">
+    <a class="hamburger w-navpane-trigger" aria-label="Menu" href="#"><span></span></a>
+    {menu}
+  </div>
+
+	<script type="text/javascript" src="/files/theme/plugins.js"></script>
+	<script type="text/javascript" src="/files/theme/custom.js"></script>
+</body>
+</html>

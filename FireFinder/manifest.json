@@ -1,0 +1,64 @@
+{
+	"responsive": true,
+	"glyph-icons": true,
+	"enableEditorJS": true,
+	"plugins": [
+		{
+			"name": "navpane",
+			"condense": 1024,
+			"defaults": {
+				"forced": true
+			}
+		}
+	],
+	"description": "Slick makes a great first impression with oversized images and bold text. Slick can make any content or messaging look impressive. The navigation keeps visitor attention on the content, while keeping the rest of the site accessible with smooth new scrolling effects and a re-imagined new blog layout only displays just post titles on the blog index page.",
+	"features": [
+		"responsive",
+		"css-buttons",
+		"social-icons",
+		"full-width-header",
+		"navigation-collapsible",
+		"color-palettes"
+	],
+	"color-support": {
+		"primary": "#333333",
+		"accent": "#666666"
+	},
+	"color-presets": [
+		{
+			"variation": "black",
+			"primary": "#333333",
+			"accent": "#666666"
+		},
+		{
+			"variation": "red",
+			"primary": "#f97e76",
+			"accent": "#9eb2c0"
+		},
+		{
+			"variation": "green",
+			"primary": "#65deaa",
+			"accent": "#4194f6"
+		}
+	],
+	"custom-options" : [
+		{
+			"name": "logo-align",
+			"title": "Logo Alignment",
+			"type": "dropdown",
+			"default": "left",
+			"is-body-class": true,
+			"refresh-on-change": true,
+			"choices": [
+				{
+					"value": "left",
+					"title": "Left"
+				},
+				{
+					"value": "center",
+					"title": "Center"
+				}
+			]
+		}
+	]
+}

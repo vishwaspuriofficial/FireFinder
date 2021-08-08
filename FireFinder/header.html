@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5b36ee977014dcb0819c8daf0/3768ea1fb9e9a07d21055d780.js");</script>
+</head>
+
+<body class='header-page  wsite-theme-light'>
+
+	<div class="wrapper">
+	  <div class="header-wrap">
+	    <div id="topBar" class="topbar">
+				<a class="hamburger w-navpane-trigger" aria-label="Menu" href="#"><span></span></a>
+	      <div class="logo">{logo}</div>
+          {search}
+          {minicart}
+	    </div><!-- end .container -->
+
+		  <div class="banner-wrap">
+				{{#header}}
+					<div class="container">
+						<div class="banner">{content}</div>
+					</div>
+				{{/header}}
+
+			</div>
+	  </div><!-- end .header-wrap -->
+
+	 <div class="w-navlist nav-wrap">
+	   	<div class="container">
+	   		<div class="nav desktop-nav">{menu}</div>
+	   	</div>
+	 </div>
+
+	<div class="main-wrap">
+		{{#sections}}
+		    <div class="container">{content}</div>
+		{{/sections}}
+	  </div>
+
+    <div class="footer-wrap">
+    	<div class="container">
+    		<div class="footer">Developed and designed by: Arhum Shahzad, Brandon Lam, Vishwas Puri, and Shaya Jabbarzadeh</div>
+    	</div><!-- end container -->
+    </div><!-- end footer-wrap -->
+	</div>
+
+	<div class="w-navpane nav mobile-nav">
+		<a class="hamburger w-navpane-trigger" aria-label="Menu" href="#"><span></span></a>
+		{menu}
+	</div>
+
+	<script type="text/javascript" src="/files/theme/plugins.js"></script>
+	<script type="text/javascript" src="/files/theme/custom.js"></script>
+<div style='padding: 20px; width:100%; text-align:center;'>{footer}</div>
+</body>
+</html>
